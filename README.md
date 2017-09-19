@@ -1,14 +1,15 @@
 AST Coq Plugin
 ==============
 
-[![Build Status](https://api.travis-ci.org/ProofEngineering/coq-ast.svg?branch=master)](https://travis-ci.org/ProofEngineering/coq-ast)
+[![Build Status](https://api.travis-ci.org/proofengineering/coq-ast.svg?branch=master)](https://travis-ci.org/proofengineering/coq-ast)
 
-Coq plugin for printing semi-canonical abstract syntax trees (ASTs) with unique kernel names or digests of such trees.
+A Coq plugin for printing semi-canonical abstract syntax trees (ASTs) with unique kernel names or digests of such trees.
 
 Requirements
 ------------
 
 - [`Coq 8.5`](https://coq.inria.fr/coq-85)
+- ['camlp5'](https://camlp5.github.io)
 
 Building
 --------
