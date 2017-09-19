@@ -1,0 +1,13 @@
+language: c
+script: bash -ex .travis-ci.sh
+addons:
+  apt:
+    sources:
+      - avsm
+    packages:
+      - ocaml
+      - opam
+      - aspcud
+sudo: false
+notifications:
+  email: false
