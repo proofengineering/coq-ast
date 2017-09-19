@@ -1,0 +1,16 @@
+opam-version: "1.2"
+version: "dev"
+maintainer: "palmskog@gmail.com"
+
+homepage: "https://github.com/proofengineering/coq-ast"
+dev-repo: "https://github.com/proofengineering/coq-ast.git"
+bug-reports: "https://github.com/proofengineering/coq-ast/issues"
+license: "MIT"
+
+build: [ make "-j%{jobs}%" ]
+install: [ make "install" ]
+remove: [ "sh" "-c" "rm -rf '%{lib}%/coq/user-contrib/AST'" ]
+depends: [ "coq" { (>= "8.5" & < "8.6~") } ]
+
+tags: [ "keyword:ast" ]
+authors: [ "Gregory Malecha <>" "Talia Ringer <>" "Karl Palmskog <>" ]

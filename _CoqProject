@@ -1,8 +1,8 @@
--Q theories PrintAST
+-Q theories AST
 -I src
 
 src/ast.ml4
 src/adler32.mli
 src/adler32.ml
 src/ast_plugin.mlpack
-theories/ASTPlugin.v
+theories/AST.v
