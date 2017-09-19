@@ -11,8 +11,8 @@ src/*.cmxs
 src/*.o
 src/*.ml4.d
 src/*.cmi
-theories/.ASTPlugin.aux
-theories/ASTPlugin.glob
-theories/ASTPlugin.v.d
-theories/ASTPlugin.vo
+theories/.AST.aux
+theories/AST.glob
+theories/AST.v.d
+theories/AST.vo
 Makefile.coq
