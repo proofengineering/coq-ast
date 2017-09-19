@@ -9,7 +9,7 @@ Requirements
 ------------
 
 - [`Coq 8.5`](https://coq.inria.fr/coq-85)
-- ['camlp5'](https://camlp5.github.io)
+- [`camlp5`](https://camlp5.github.io)
 
 Building
 --------
