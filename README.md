@@ -27,22 +27,26 @@ Usage Examples
 --------------
 
 ```coq
+(* require and import plugin *)
 Require Import AST.AST.
 
+(* constants to analyze *)
+Require Import List.
+
 (* print list of identifier ASTs as JSON to stdout *)
-AST List.map List.filter.
+AST map filter.
 
 (* print list of identifier ASTs as JSON to file *)
-AST "asts.json" List.map List.filter.
+AST "asts.json" map filter.
 
 (* print MD5 digests of identifiers as JSON to stdout *)
-Digest MD5 List.map List.filter.
+Digest MD5 map filter.
 
 (* print Adler32 digests of identifiers as JSON to stdout *)
-Digest ADLER32 List.map List.filter.
+Digest ADLER32 map filter.
 
 (* print MD5 digests of identifiers as JSON to file digests.json *)
-Digest MD5 "digests.json" List.map List.filter.
+Digest MD5 "digests.json" map filter.
 
 (* print ASTs for all identifiers in modules List and Logic as JSON to file asts.json *)
 ModuleAST "asts.json" Logic List.

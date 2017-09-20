@@ -1,8 +1,8 @@
--Q theories AST
--I src
+-Q . AST
+-I .
 
-src/ast.ml4
-src/adler32.mli
-src/adler32.ml
-src/ast_plugin.mlpack
-theories/AST.v
+ast.ml4
+adler32.mli
+adler32.ml
+ast_plugin.mlpack
+AST.v
