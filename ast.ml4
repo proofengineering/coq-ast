@@ -395,7 +395,7 @@ let print_vio_digest_of_gref hash fmt gref delim =
     print_ast_body_digest hash fmt gref t_body delim
   | Globnames.ConstructRef _ -> ()
 
-VERNAC COMMAND EXTEND Ast
+VERNAC COMMAND EXTEND Ast CLASSIFIED AS QUERY
 | [ "AST" reference_list(rl) ] ->
   [
     let fmt = formatter None in
